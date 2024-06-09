@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d269a71ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navBar">
+
+            <img class="logo" src="/images/jawad.png" alt="name">
+            <ul class="tabs">
+                <a class="hide stylee" href="#">close</a>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#game">MyGame</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>     
+            <a class="hide menu" href="#">menu</a>
+        </nav>
+        <div class="headerText">
+            <p>Game Developer</p>
+            <br>
+            <h1>Hi, I'm <span> <a href="#about" class="nameit">Jawad</a></span> <br> and I'm a game Developer</h1>
+            <h1 id="embedit"></h1>
+        </div>
+    </div>
+</div>
+
+
+<div id="about">
+    <div class="container-2">
+        <div class="row">
+            <div class="column-1"> 
+                <img src="images/profile-2.jpg" alt="profile">
+            </div>
+            <div class="column-2">
+                <h1 class="subtitle">About Me</h1>
+                <p id="text">Hello! I'm Jawad Ahmad, a dedicated student at Punjab College, affiliated with the University of Education. I am passionate about my studies and always eager to learn new things. Welcome to my personal webpage!</p>
+                <div class = "tab-list">
+                    <p class="tabs-link active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tabs-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tabs-link" onclick="opentab('educatoion')">Education</p>
+                </div>
+                <div class="tab-contents active-content" id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing Web Interfaces</li>
+                            <li><span>Game Developer</span><br>Developing Games With C++</li>
+                            <li><span>Web Developer</span><br>Building Web Applictions</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id = "experience">
+                    <ul>
+                        <li><span>6 Months</span><br>Designing Web Interfaces</li>
+                        <li><span>2 Months</span><br>Developing Games With C++</li>
+                        <li><span>6 Months</span><br>uilding Web Applictions</li>
+                    </ul>
+            </div>
+            <div class="tab-contents" id="educatoion">
+                <ul>
+                    <li><span>School</span><br>Matric : The Trust School</li>
+                    <li><span>College</span><br>Inter : The Punjab Groups of Colleges</li>
+                    <li><span>Degree</span><br>BSCS : From UOEL</li>
+                </ul>
+        </div>
+    
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+<div id="game">
+    <div class="container-3">
+            <h1 class="title">My Game</h1>
+            <div class="game-list">
+                    <div class="MyGame">
+                        <i class="fa-solid fa-gamepad fa-6x"></i>
+                        <h2>Swagii</h2>
+                        <p>A Space Shooter Game</p>
+                        <br>
+                        <br>
+                        <a href="https://github.com/j2Ab/rpg-game">Get My Game</a>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container-4">
+        <h1 class="title1">Portfolio</h1>
+        
+        <div class="portfolio-list">
+            <div class="MyPortfolio">
+                <i class="fa-solid fa-cube fa-6x"></i>
+                <h2>3D</h2>
+                <p>Artist</p>
+                <br>
+                <br>
+                <a href="https://www.artstation.com/jawadahmad52">See Portfolio</a>
+            </div>
+     </div>
+</div>
+                
+ <div class="empty">
+                    
+     <h1 class="title">Faith</h1>
+</div>
+
+<div id="contact">
+
+    <div class="container-5">
+        <h1 class="title">Contact Me</h1>
+        <div class="row1">
+            <div class="contactleft">
+                <h1>Mail Here</h1>
+                <p>jawadahmad478391@gmail.com</p>
+                <br>
+                <h1>Phone </h1>
+                <p>+923254823231</p>
+                <br>
+                <div class="socail-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100036418400445"><i class="fa-brands fa-facebook fa-4x"></i></a>
+                    <a href="https://www.instagram.com/jawadahmad903/"><i class="fa-brands fa-instagram fa-4x"></i></i></a>
+                    <a href="https://www.linkedin.com/in/jawad-ahmad-8a665a222/"><i class="fa-brands fa-linkedin fa-4x"></i></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <p>Jawad Ahmad</p>
+    <p>All Right's Reserved</p>
+</footer>
+
+
+
+<script src="index.js"></script>
+    
+</body>
+</html>
