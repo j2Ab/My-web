@@ -366,13 +366,14 @@ width: 100%;
     color: #472c6c;
     font-size: 40px;
 }
-.contactleft p{
+.contactleft a{
     font-size: xx-large;
+    text-decoration: none;
     color: #707070;
     cursor: pointer;
     
 }
-.contactleft p:hover{
+.contactleft a:hover{
     color: whitesmoke;
 }
 .socail-icons a i{
