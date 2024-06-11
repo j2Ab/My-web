@@ -336,6 +336,7 @@ width: 100%;
 .empty h1{
     font-size: 4000%;
     opacity: 20%;
+    justify-content: center;
 }
 
 /*----------contact--------------*/
