@@ -54,7 +54,7 @@ let buttonE1 = document.querySelector(".getrollnumber");
 let rollnumber;
 buttonE1.addEventListener("click", ()=>{
 rollnumber = window.prompt("Type your bsf : roll number last 3 digits");
-if(rollnumber == 58 || rollnumber == 59 ||rollnumber == 60 ||rollnumber == 70 ||rollnumber == 71 ||rollnumber == 72 ||rollnumber == 73 ||rollnumber == 74 || rollnumber == 75 || rollnumber == 76 || rollnumber == 77 || rollnumber == 78 || rollnumber == 83 ||rollnumber == 84) {
+if(rollnumber == 558 || rollnumber == 559 ||rollnumber == 560 ||rollnumber == 570 ||rollnumber == 571 ||rollnumber == 572 ||rollnumber == 573 ||rollnumber == 574 || rollnumber == 575 || rollnumber == 576 || rollnumber == 577 || rollnumber == 578 || rollnumber == 583 ||rollnumber == 584) {
 getimgE1.src = `images/tarki.png`;
 } 
 else if(rollnumber == NaN || rollnumber == 0){
