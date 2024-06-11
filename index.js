@@ -53,11 +53,15 @@ const getimgE1 = document.querySelector("#getimg");
 let buttonE1 = document.querySelector(".getrollnumber");
 let rollnumber;
 buttonE1.addEventListener("click", ()=>{
-rollnumber = window.prompt("Type your bsf : roll number last two digits");
+rollnumber = window.prompt("Type your bsf : roll number last 3 digits");
 if(rollnumber == 58 || rollnumber == 59 ||rollnumber == 60 ||rollnumber == 70 ||rollnumber == 71 ||rollnumber == 72 ||rollnumber == 73 ||rollnumber == 74 || rollnumber == 75 || rollnumber == 76 || rollnumber == 77 || rollnumber == 78 || rollnumber == 83 ||rollnumber == 84) {
 getimgE1.src = `images/tarki.png`;
-} else{
- getimgE1.src = `https://ums.uoel.edu.pk/admin_asset/images/student_images/2304/colleges/bsf230085${rollnumber}.jpg`;
+} 
+else if(rollnumber == NaN || rollnumber == 0){
+    getimgE1.src = `images/backprofile.png`;
+}else
+{
+getimgE1.src = `https://ums.uoel.edu.pk/admin_asset/images/student_images/2304/colleges/bsf23008${rollnumber}.jpg`;
 }
 }); 
 
