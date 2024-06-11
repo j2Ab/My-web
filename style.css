@@ -31,14 +31,14 @@ html{
 
 
 .logo{
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
     margin-left: 10%;
     cursor: pointer;
     transition: 0.5s;
 }
 .logo:hover{
-    width: 12%;
+    width: 10%;
 }
 .navBar{
     display: flex;
@@ -46,7 +46,7 @@ html{
     align-items: center;
     flex-wrap: wrap;
     position: absolute;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .tabs li{
     display: inline-block;
