@@ -417,7 +417,7 @@ width: 100%;
     align-items: center;
     transition: 0.5s;
     border: #000000 solid;
-    border-width: 10px;
+    border-width: 5px;
 }
 .images-con:hover{
     transform: translateY(-20px);
