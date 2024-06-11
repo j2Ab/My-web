@@ -434,7 +434,8 @@ width: 100%;
     font-weight: 800;
     border-radius: 20px;
     border: none;
-    color: #707070;
+    color: #000000;
+    background-color: #707070;
     transition: 0.5s;
 }
 .backbone button:hover{
