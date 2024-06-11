@@ -332,11 +332,11 @@ width: 100%;
     background-attachment: fixed;
     padding: 5% 0;
     display: flex;
+    justify-content: center;
 }
 .empty h1{
     font-size: 4000%;
     opacity: 20%;
-    justify-content: center;
 }
 
 /*----------contact--------------*/
