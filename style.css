@@ -332,6 +332,7 @@ width: 100%;
     background-attachment: fixed;
     padding: 5% 0;
     display: flex;
+    justify-content: center;
 }
 .empty h1{
     font-size: 4000%;
@@ -385,6 +386,67 @@ width: 100%;
 .socail-icons a i:hover{
     transform: translateY(-10px);
 }
+#findyou{
+    background-color: #472c6c;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-6 h1{
+    font-size: 50px;
+    color: #707070;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10%;
+}
+.images-con{
+    height: 300px;
+    width: 300px;
+    background-color: #707070;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border: #000000 solid;
+    border-width: 10px;
+}
+.images-con:hover{
+    transform: translateY(-20px);
+}
+.backbone{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.backbone button{
+    height: 60px;
+    width: 140px;
+    font-size: x-large;
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    color: #707070;
+    transition: 0.5s;
+}
+.backbone button:hover{
+    transform: translateY(-10px);
+    opacity: 80%;
+}
+.getimg{
+    height: 100%;
+    width: 100%;
+}
+
+
 
 footer{
 background-attachment: fixed;
