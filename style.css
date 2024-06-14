@@ -416,7 +416,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    border: #000000 solid;
+    border: #472c6c solid;
     border-width: 5px;
 }
 .images-con:hover{
